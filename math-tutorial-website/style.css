@@ -1,0 +1,170 @@
+#body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+h1 a{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 100;
+    color: blueviolet;  
+}
+
+#search{
+    float: right;
+    background: linear-gradient(greenyellow, green);
+    width: 400px;
+    height: 50px;
+    margin: 21.44px 0;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+#brand{
+    float: left;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid rgb(66, 71, 71);
+    font-size: 15px;
+    color: orangered;
+    background: white url(img/search.png) right center no-repeat;
+    
+}
+
+.submit{
+    float: right;
+    padding:5px;
+    font-weight: bold;
+    background: purple;
+    color: aliceblue;
+    border-color: purple;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu ul{
+    list-style: none;
+   
+}
+
+#menu{
+    background: goldenrod;
+    height: 70px;
+    width: 100%;
+    padding: 7px 0;   
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid black;
+}
+
+#menu ul li:last-child{
+    border-right: 0;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+}
+
+#intro{
+    background: lightgreen;
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#intro h3{
+    font-size: 40px;
+    color: green;
+    font-weight: normal;
+}
+
+#intro p{
+    font-size: 25px;
+    color: mediumseagreen;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 43%;
+    padding: 10px 20px;
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+}
+
+.sidebar ul li{
+    padding: 4px 0 4px 0;
+}
+
+#sidebar1{
+    float: left;
+    list-style-image: url(img/redarrow.png);
+}
+
+#sidebar2{
+    float: right;
+    color: purple;
+    list-style-image: url(img/greencheck.png);
+}
+
+.sidebar h3{
+    color:purple;
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover{
+    font-size: 20px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.footer{
+    height: 50px;
+    background-color: lightcoral;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
