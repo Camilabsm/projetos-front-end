@@ -1,12 +1,17 @@
 #container{
     font-family: 'Raleway', sans-serif;
     width: 80%;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column;
 }
 
 #header{
-    height: 100px;
     padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 a{
@@ -18,15 +23,17 @@ h1 a{
 }
 
 #brand{
-    float: left;
+    flex: 50%;
 }
 
 #search{
-    float: right;
+    flex: 50%;
     background: #FFFBF5;
     height: 50px;
-    margin: 21.44px 0;
-    padding: 30px 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .text{
@@ -43,7 +50,6 @@ h1 a{
 .submit{
     font-family: 'Raleway', sans-serif;
     margin-left: 5px;
-    float: right;
     font-weight: bold;
     background: #674188;
     color: aliceblue;
@@ -55,32 +61,40 @@ h1 a{
     clear: both;
 }
 
-#menu ul{
-    list-style: none;  
-}
-
 #menu{
     font-family: 'Raleway', sans-serif;
     background: #F7EFE5;
-    width: 100%;
+    margin-top: 20px;
+}
+
+#menu ul{
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 700px){
+    #menu{
+        flex-direction: row;
+    }
 }
 
 #menu ul li{
-    float: left;
-    height: 30px;
-    padding: 0 30px;
+    flex-direction: column;
     border-right: 1px solid #674188;
+    height: 30px;
+    padding: 0 20px;
 }
 
 #menu ul li:last-child{
     border-right: 0;
 }
 
-#menu ul li a{
+#menu a{
     text-decoration: none;
     color: #C3ACD0;
     font-size: 17px;
@@ -93,7 +107,7 @@ h1 a{
 
 }
 
-#menu ul li a:hover, #menu ul li a.active{
+#menu a:hover, #menu a.active{
     font-size: 20px;
     color: #674188;
     font-weight: bold;
@@ -173,7 +187,7 @@ h1 a{
     font-family: 'Nanum Gothic Coding', monospace;
     height: 50px;
     background-color: #C3ACD0;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-top: 20px;
     border-radius: 20px;
     color:#674188
