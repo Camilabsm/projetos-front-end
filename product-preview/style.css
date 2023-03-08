@@ -1,0 +1,154 @@
+body{
+    background-color: #f2ebe3;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Fraunces', sans-serif;
+    color: #1c232b;
+    line-height: 30px;
+    margin-top: 15px !important;
+}
+
+#component{
+    height: 60vh;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#bottle{
+    max-height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#product{
+    max-width: 50%;
+    text-overflow: break;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#product p, h1{
+    padding: 0 30px;
+    margin: 20px 0 0 0;
+}
+
+#type{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #6c7289;
+    margin-bottom: 0;
+}
+
+#description{
+    color: #6c7289;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+#prices{
+    display: flex;
+    flex-direction: row;
+}
+
+#sale{
+    font-size: 26px;
+    font-family: 'Fraunces', sans-serif;
+    color: #3d8168;
+    padding-right: 20px !important;
+}
+
+#ogprice{
+    text-decoration: line-through;
+    color: #6c7289;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 0 !important;
+    align-self: center;
+}
+
+button{
+    background-color: #3d8168;
+    color: white;
+    font-family: 'Montserrat';
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    display: flex;
+    font-size: 12px;
+}
+
+button:hover{
+    background-color:#043A0C;
+    cursor: pointer;
+}
+
+button img{
+    padding-right: 10px;
+}
+
+#btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+    #component{
+        height: 90vh;
+        width: 95%;
+        flex-direction: row;
+    }
+
+    #bottle{
+        object-fit:cover;
+        width: 100%;
+        max-height: 40vh;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #product{
+        max-width: 100%;
+        text-overflow: break;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (min-width: 3000px){
+
+    /*CSS coding for bigger screens here*/
+
+}
+
+.attribution{
+    font-size: 10px;
+    color:  hsl(224, 30%, 27%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 2px;
+}
