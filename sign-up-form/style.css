@@ -1,0 +1,144 @@
+body{
+    background-color: #ff7a7a;
+    background-image: url("./images/bg-intro-desktop.png");
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#container{
+    margin: auto 0;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#intro{
+    width: 47.5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#info{
+    width: 47.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#intro p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#freetrial{
+    color: white;
+    background-color: #6055a5;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.15);
+    border: #6055a5;
+    font-size: 12px;
+    width: 100%;
+}
+
+span{
+    font-weight: 600;
+}
+
+#signupform{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.formbox{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #b9b6d3;
+    border: 2px solid rgba(185, 182, 211, 0.3);
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    outline: none;
+    
+    background-image: url("./images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: 50%;
+}
+
+.formbox:focus{
+    border: 2px solid  rgba(185, 182, 211);
+    border-radius: 5px;
+    color: black;
+}
+
+.errormsg{
+    color: red;
+    font-size: 10px;
+    text-align: end;
+    margin: 2px 0 10px 0;
+    display: none;
+}
+
+.submit{
+    width: 100%;
+    background-color: #38cc8c;
+    border-radius: 5px;
+    padding: 12px 0;
+    color: white;
+    text-transform: uppercase;
+    border: rgba(56, 204, 140,0.7);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: #2AA26E;
+}
+
+.submit:active{
+    position: relative;
+    top: 2px;
+}
+
+#terms{
+    font-size: 10px;
+    color: #b9b6d3;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#terms a{
+    font-weight: 700;
+    color: #ff7a7a;
+    text-decoration: none;
+}
