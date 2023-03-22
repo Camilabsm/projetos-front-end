@@ -1,0 +1,174 @@
+:root{
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #F9F9F9;
+    --cor-terciaria: #167BF7;
+    --fonte-paragrafo: 1rem;
+    --fonte-titulo: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #00030C;    
+    color: var(--cor-primaria);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.combo{
+    height: 100vh;
+    width: 100%;  
+    background-image: url(./imgs/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.combo__conteudo{
+    width: 40%;
+    height: 60%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 7.8rem 0 0 3.4rem;
+    gap: 1rem;
+}
+
+.combo__conteudo__titulo{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.combo__conteudo__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.combo__logo{
+    width: 60%;
+}
+
+.combo__conteudo__botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 3rem 0 0.5rem 0;
+    width: 90%;
+}
+
+.combo__botoes{
+    font-size: var(--fonte-paragrafo);
+    text-decoration: none;
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-terciaria);
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--cor-terciaria);
+}
+
+#somenteAlura{
+    background-color: transparent !important;
+    border: 1px solid var(--cor-primaria);
+}
+
+.combo__alerta{
+    font-size: 0.75rem;
+    color: #C0C0C0;
+}
+
+.secao{
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 4.3rem;
+}
+
+.dispositivos{
+    width: 30%;
+}
+
+.secao__texto{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.juntos{
+    width: 40%;
+}
+
+#juntos__paragrafo{
+    margin-bottom: 1.5rem;
+}
+
+.secao__texto__titulo{
+    font-size: var(--fonte-titulo);
+    font-weight: bold;
+}
+
+.secao__texto__paragrafo{
+    font-size: var(--fonte-paragrafo);
+    color: var(--cor-secundaria);
+    margin-top: 0.5rem;
+}
+
+.disponivel{
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.disponivel__telas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tv, .computadores, .celulares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem 7rem 6rem 7rem;
+    gap: 2rem;
+    font-size: var(--fonte-paragrafo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+.rodape__navegacao{
+    display: flex;
+    gap: 1rem;
+}
+
+.rodape__navegacao__links{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}

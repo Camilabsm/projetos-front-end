@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <title>News homepage</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <img id="logo" src="./assets/images/logo.svg" alt="logo">
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </div>
+
+    <div id="primaryNews">
+      <div id="headliner">
+        <div id="img">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="headliner image">
+        </div>
+        <div id="newsText">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+          <button id="readMore">Read More</button>
+        </div>
+      </div>
+
+      <div id="new">
+        <h2>New</h2>
+        <a href="#">Hydrogen VS Electric Cars</a>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr> 
+        <a href="#">The Downsides of AI Artistry</a>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        <hr> 
+        <a href="#">Is VC Funding Drying Up?</a>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div> 
+    </div>
+
+    <div id="secondaryNews">
+      <div id="img01" class="secondaryImg"><img src="./assets/images/image-retro-pcs.jpg" alt="retro PCs"></div>
+      <div id="news01" class="secondaryText">
+        <h3>01</h3>
+        <a href="#">Reviving Retro PCs</a>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </div>      
+      <div id="img02" class="secondaryImg"><img src="./assets/images/image-top-laptops.jpg" alt="laptops"></div>
+      <div id="news02" class="secondaryText">
+        <h3>02</h3>
+        <a href="#">Top 10 Laptops of 2022</a>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>      
+      <div id="img03" class="secondaryImg"><img src="./assets/images/image-gaming-growth.jpg" alt="gaming growth"></div>
+      <div id="news03" class="secondaryText">
+        <h3>03</h3>
+        <a href="#">The Growth of Gaming</a>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </div>      
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Camilabsm/">Camila Matias</a>.
+    Optimal view: 14" screen.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

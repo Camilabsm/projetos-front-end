@@ -1,0 +1,183 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Inter', sans-serif;  
+}
+
+#container{
+    max-height: 98vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    overflow: hidden;
+    margin-top: 5vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 14px;
+}
+
+#header{
+    margin-bottom: 3vh;
+    height: 8vh; 
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right; 
+}
+
+ul li{
+    margin-right: 30px;
+}
+
+ul li:nth-child(5){
+    margin-right: 0;
+}
+
+ul li a{
+    color: #5d5f79;
+}
+ul li a:hover{
+    color: 	#e9ab53;
+}
+
+#header img{
+    float: left;
+}
+
+#primaryNews{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    overflow: hidden;
+    margin-bottom: 7vh;
+}
+
+#headliner{
+    width: 90%;
+    margin-right: 20px;
+}
+
+#primaryNews img{
+    width: 100%;
+    height: 30vh;
+}
+
+#newsText{
+    margin-top: 15px;
+}
+
+h1{
+    float: left;
+    font-size: 50px;
+    margin: 0;
+    word-break: keep-all;
+    width: 40%;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+#headliner p{
+    color: #5d5f79;
+    float: right;
+    word-break: keep-all;
+    width: 50%;
+    text-align: start;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+button{
+    padding: 15px 25px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #f15e50;
+    margin: 10px 0 0 75px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+}
+
+#new{
+    background-color:#00001a;
+    padding: 20px;
+    width: 35%;
+    height: 100%;
+}
+
+#new a{
+    color: #fffdfa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#new p{
+    color: #c5c6ce;
+    font-size: 12px;
+}
+
+h2{
+    color: #e9ab53;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+
+hr{
+    border: 1px solid #c5c6ce;
+    margin: 20px 0;
+    align-content: center;
+}
+
+#secondaryNews{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    height: 15vh;
+    margin-bottom: 3vh;
+}
+
+.secondaryImg img{
+    height: 100%;
+    margin-right: 10px;
+}
+
+.secondaryText{
+    margin-right: 10px;
+}
+
+h3{
+    color:#5d5f79;
+    margin: 0 0 7px 0;
+    font-size: 20px;
+}
+
+.secondaryText a{
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.secondaryText p{
+    color: #c5c6ce;
+    font-size: 13px;
+    margin: 7px 0 0 0;
+}
+
+.attribution{
+    max-height: 2vh;
+    font-size: 10px;
+    color:  hsl(224, 30%, 27%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-self: center;   
+}

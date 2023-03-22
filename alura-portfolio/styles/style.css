@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;    
+    color: #F6F6F6;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 5rem;
+}
+
+.cabecalho__menu__links{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #22D4FD;
+    text-decoration: none;
+}
+.conteudo{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.conteudo__texto__titulo{
+    font-size: 2.25rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.destaque-titulo{
+    color: #22D4FD;
+}
+
+.conteudo__texto__apresentacao{
+    color: #F6F6F6;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo__links__link{
+    color: #F6F6F6;
+    width: 50%;
+    border: 2px solid #22D4FD;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.conteudo__links__link:hover{
+    background-color: #272727;
+}
+
+.conteudo__texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.conteudo__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.conteudo__links__subtitulo{
+    color: #F6F6F6;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.conteudo__imagem{
+    width: 50%;
+}
+
+.rodape{
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .conteudo{
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 5% 5%;
+        width: 100%;
+    }
+
+    .conteudo__texto{
+        width: auto;
+        text-align: center;
+    }
+
+}
