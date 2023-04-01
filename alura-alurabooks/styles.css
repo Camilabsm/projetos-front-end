@@ -1,0 +1,78 @@
+@import url("./styles/header.css");
+@import url("./styles/rodape.css");
+@import url("./styles/carrossel.css");
+@import url("./styles/cards.css");
+@import url("./styles/topicos.css");
+@import url("./styles/novidades.css");
+
+:root{
+    --branco-principal: #FFFFFF;
+    --amarelo-secundario: #EB9B00;
+    --azul-terciario: #002F52;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cinza-fundo: #EBECEE;    
+    --cinza-carrossel: #C4C4C4; 
+    --cinza-apoio: #858585;
+    --branco-apoio: #F9F9F9;
+    --preto-apoio: #000000;  
+    --preto-rodape: #474646;  
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: var(--cinza-fundo);
+}
+
+.inicio{
+    background: var(--azul-degrade);
+    color: var(--branco-principal);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.inicio__titulo{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.inicio__paragrafo{
+    font-size: 1em;
+    font-weight: 500;
+    margin: 1em 0 1.5em 0;
+}
+
+.inicio__pesquisa{
+    font-size: 0.88em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1.5em;
+    border: 2px solid var(--branco-principal);
+    background-color: transparent;
+    color: var(--branco-principal);
+    padding: 0.6em 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inicio__pesquisa::placeholder{
+    color: var(--branco-principal);
+    background-image: url(./imgs/Pesquisa.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .inicio__titulo{
+        font-size: 2.2em;
+    }
+
+    .inicio__pesquisa{
+        width: 50%;
+        padding: 1em 0;
+    }
+
+    .inicio__pesquisa::placeholder{
+        background-position: 6.5em;
+    }
+}
